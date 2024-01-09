@@ -1,0 +1,39 @@
+###get
+GET http://localhost:4000/api/users
+
+###postUsers
+POST http://localhost:4000/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Sofia",
+    "lastname": "B",
+    "sector":"Contabilidad"
+}
+
+###postSectors
+POST http://localhost:4000/api/sectors/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": 123
+}
+
+###getSectors
+GET http://localhost:4000/api/sectors/ 
+
+###deleteSectos
+DELETE http://localhost:4000/api/sectors/deleteSector HTTP/1.1
+content-type: application/json
+
+{
+    "name": 
+}
+
+###putSectors
+PUT http://localhost:4000/api/sectors/putSector HTTP/1.1
+content-type: application/json
+
+{
+    "name": 
+}
